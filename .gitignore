@@ -1,0 +1,54 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm][64]/
+[Bb][Ii][Nn]/
+[Oo][Bb][Jj]/
+
+# NuGet
+*.nupkg
+packages/
+*.snk
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Auto-generated
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# C#
+*.dbmdl
+
+# RDLC auto generated
+*.rdl.data
+*.rdl
+*.rdlc
+
+# Publish
+publish/
