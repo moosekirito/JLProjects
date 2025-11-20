@@ -72,6 +72,7 @@
             this.cmbColumns.Name = "cmbColumns";
             this.cmbColumns.Size = new System.Drawing.Size(121, 23);
             this.cmbColumns.TabIndex = 3;
+            this.cmbColumns.SelectedIndexChanged += new System.EventHandler(this.cmbColumns_SelectedIndexChanged);
             // 
             // StartForm
             // 
@@ -84,7 +85,6 @@
             this.Controls.Add(this.btnLoadExcel);
             this.Name = "StartForm";
             this.Text = "Form1";
-
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.ResumeLayout(false);
 

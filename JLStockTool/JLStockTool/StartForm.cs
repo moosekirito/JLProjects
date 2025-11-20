@@ -117,9 +117,12 @@ namespace JLStockTool
                 _log.GetInfo(LogWriteLevel.Info, $"查詢 {stockCode}", null);
             }
 
-            MessageBox.clsMessageBox.Show("比對完成！");
+            MessageBox.clsMessageBox.Show("比對完成了！");
         }
 
-    
+        private void cmbColumns_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
