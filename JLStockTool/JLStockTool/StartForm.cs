@@ -118,13 +118,16 @@ namespace JLStockTool
             }
 
             MessageBox.clsMessageBox.Show("比對完成了！");//test////
-            MessageBox.clsMessageBox.Show("比對完成了！");//test馬爾扎哈
+
 
         }
+<<<<<<< HEAD
 
         private void cmbColumns_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> parent of bfcf8f3 (測試git)
     }
 }
