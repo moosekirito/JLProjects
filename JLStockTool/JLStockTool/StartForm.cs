@@ -119,5 +119,7 @@ namespace JLStockTool
 
             MessageBox.clsMessageBox.Show("比對完成！");
         }
+
+    
     }
 }

@@ -84,6 +84,7 @@
             this.Controls.Add(this.btnLoadExcel);
             this.Name = "StartForm";
             this.Text = "Form1";
+
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.ResumeLayout(false);
 
